@@ -1,0 +1,201 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('font/icomoon.eot');
+	src:url('font/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('font/icomoon.woff') format('woff'),
+		url('font/icomoon.ttf') format('truetype'),
+		url('font/icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'icomoon';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-"] {
+*/
+.icon-map, .icon-location, .icon-bolt, .icon-new, .icon-browser, .icon-publish, .icon-cone, .icon-rocket, .icon-eye, .icon-trophy, .icon-flag, .icon-screen, .icon-statistics, .icon-pie, .icon-bars, .icon-graph, .icon-code, .icon-light-bulb, .icon-credit-card, .icon-pictures, .icon-cc, .icon-archive, .icon-circles, .icon-behance, .icon-paypal, .icon-tumblr, .icon-pinterest, .icon-pinterest-2, .icon-googleplus, .icon-googleplus-2, .icon-vimeo, .icon-vimeo-2, .icon-twitter, .icon-twitter-2, .icon-facebook, .icon-facebook-2, .icon-facebook-3, .icon-flickr, .icon-flickr-2, .icon-linkedin, .icon-linkedin-2, .icon-instagram, .icon-ticket, .icon-printer, .icon-info, .icon-info-2, .icon-question, .icon-help, .icon-warning, .icon-video, .icon-music, .icon-disk, .icon-vcard, .icon-images {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.icon-map:before {
+	content: "\e000";
+}
+.icon-location:before {
+	content: "\e001";
+}
+.icon-bolt:before {
+	content: "\e002";
+}
+.icon-new:before {
+	content: "\e003";
+}
+.icon-browser:before {
+	content: "\e004";
+}
+.icon-publish:before {
+	content: "\e005";
+}
+.icon-cone:before {
+	content: "\e006";
+}
+.icon-rocket:before {
+	content: "\e007";
+}
+.icon-eye:before {
+	content: "\e008";
+}
+.icon-trophy:before {
+	content: "\e009";
+}
+.icon-flag:before {
+	content: "\e00a";
+}
+.icon-screen:before {
+	content: "\e00b";
+}
+.icon-statistics:before {
+	content: "\e00c";
+}
+.icon-pie:before {
+	content: "\e00d";
+}
+.icon-bars:before {
+	content: "\e00e";
+}
+.icon-graph:before {
+	content: "\e00f";
+}
+.icon-code:before {
+	content: "\e010";
+}
+.icon-light-bulb:before {
+	content: "\e011";
+}
+.icon-credit-card:before {
+	content: "\e012";
+}
+.icon-pictures:before {
+	content: "\e013";
+}
+.icon-cc:before {
+	content: "\e014";
+}
+.icon-archive:before {
+	content: "\e015";
+}
+.icon-circles:before {
+	content: "\e016";
+}
+.icon-behance:before {
+	content: "\e017";
+}
+.icon-paypal:before {
+	content: "\e018";
+}
+.icon-tumblr:before {
+	content: "\e019";
+}
+.icon-pinterest:before {
+	content: "\e01a";
+}
+.icon-pinterest-2:before {
+	content: "\e01b";
+}
+.icon-googleplus:before {
+	content: "\e01c";
+}
+.icon-googleplus-2:before {
+	content: "\e01d";
+}
+.icon-vimeo:before {
+	content: "\e01e";
+}
+.icon-vimeo-2:before {
+	content: "\e01f";
+}
+.icon-twitter:before {
+	content: "\e020";
+}
+.icon-twitter-2:before {
+	content: "\e021";
+}
+.icon-facebook:before {
+	content: "\e022";
+}
+.icon-facebook-2:before {
+	content: "\e023";
+}
+.icon-facebook-3:before {
+	content: "\e024";
+}
+.icon-flickr:before {
+	content: "\e025";
+}
+.icon-flickr-2:before {
+	content: "\e026";
+}
+.icon-linkedin:before {
+	content: "\e027";
+}
+.icon-linkedin-2:before {
+	content: "\e028";
+}
+.icon-instagram:before {
+	content: "\e029";
+}
+.icon-ticket:before {
+	content: "\e02a";
+}
+.icon-printer:before {
+	content: "\e02b";
+}
+.icon-info:before {
+	content: "\e02c";
+}
+.icon-info-2:before {
+	content: "\e02d";
+}
+.icon-question:before {
+	content: "\e02e";
+}
+.icon-help:before {
+	content: "\e02f";
+}
+.icon-warning:before {
+	content: "\e030";
+}
+.icon-video:before {
+	content: "\e031";
+}
+.icon-music:before {
+	content: "\e032";
+}
+.icon-disk:before {
+	content: "\e033";
+}
+.icon-vcard:before {
+	content: "\e034";
+}
+.icon-images:before {
+	content: "\e035";
+}

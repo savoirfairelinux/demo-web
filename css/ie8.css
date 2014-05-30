@@ -1,0 +1,10 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.submenu {
+    position: absolute;
+    right: 0;
+    top: 43px;
+    width: 200px;
+    z-index: 1000;
+}

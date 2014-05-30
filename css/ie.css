@@ -1,0 +1,12 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.submenu {
+    position: absolute;
+    right: 0;
+    top: 29px;
+    width: 200px;
+    z-index: 1000;
+}
+
+.triangle-up { display:none; }
