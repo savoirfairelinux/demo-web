@@ -1,20 +1,31 @@
 jQuery().ready(function () {
+    var that = this;
+    
 	$(".ascenseur").next("div").hide();
 	$(".open").next("div").show();
     
-	
+//  For open and close subMenu
 	$(".ascenseur").click(function() {
-		$(".submenu").slideUp("slow");
-				
-		if($(this).next("div").is(":hidden")){            
+		var thisSubMenu = $(this).next("div");
+        
+//      Close all other submenu openned
+        $(".submenu").slideUp("slow");
+        
+		if(thisSubMenu.is(":hidden")){            
 			$(".ascenceur").next("div:visible").slideUp("slow");
-			$(this).next("div").slideDown("fast");
-		}else if($(this).next("div").is(":visible")){
+			thisSubMenu.slideDown("fast");
+		}else if(thisSubMenu.is(":visible")){
 			$(".ascenceur").next("div:hidden").slideDown("fast");
-			$(this).next("div").slideUp("slow");
+			thisSubMenu.slideUp("slow");
         }
 	});
-
+    
+//  Close Opened subMenu when event 'click' on the page
+    $('#iframe_magic').load(function(){
+        $(this).contents().find("body").click(function(event) { 
+            $(that).find(".ascenseur").next("div").slideUp("slow");; 
+        });
+    });
 	
 
 	$(".menu-panel ul.menu-toc li").click(function(e) {
