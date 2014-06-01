@@ -139,11 +139,13 @@ a:hover {
 
 }
 
+/*
 .menu-panel div {
 	margin-top: 10px;
 	margin-bottom:10px;
 
 }
+*/
 
 .menu-panel div a {	
 	font-size: 0.9em;
@@ -151,6 +153,7 @@ a:hover {
 	padding-top: 10px;
 	padding-bottom:10px;
 	display: block;	
+    white-space: nowrap;
 	border-bottom: 1px dashed #000000;	
 	font-weight: 300;
 	text-shadow: 0 1px rgba(255,255,255,0.2);
@@ -356,8 +359,9 @@ h4.ascenseur { float:left; }
 
 .submenu { 
     position:absolute; 
-    top:50px; 
+    top:43px; 
     right:0; 
+    margin-top: 0px;S
     width:200px; 
     z-index: 1000;  
 }
@@ -374,7 +378,7 @@ h4.ascenseur { float:left; }
 
 #dimensions span { color:#FFF; }  
 
-.resolution { clip: rect(0px 0px 0px 0px); position:absolute; } 
+.resolution { display: none;} 
 
 .landscape{
 	transform:rotate(90deg);
@@ -403,6 +407,10 @@ top:0px;
 right:35px; 
 }
 
-.menu-toc { position:relative; z-index:2; margin-top: 15px; }
+.menu-toc { 
+    position:relative; 
+    z-index:2; 
+/*    margin-top: 15px; */
+    }
 
 .icon-caret-down { font-size:0.7em; }

@@ -1,27 +1,26 @@
 jQuery().ready(function () {
 	$(".ascenseur").next("div").hide();
 	$(".open").next("div").show();
-	
-	
+    
+    var openAscenseur; 
 	
 	$(".ascenseur").click(function() {
-			
 		$(".submenu").slideUp("slow");
 				
-		if($(this).next("div").is(":hidden"))
-		{
+		if($(this).next("div").is(":hidden")){            
 			$(".ascenceur").next("div:visible").slideUp("slow");
 			$(this).next("div").slideDown("fast");
-		}
-
-		else 
-			if($(this).next("div").is(":visible"))
-			{
-				$(".ascenceur").next("div:hidden").slideDown("fast");
-				$(this).next("div").slideUp("slow");
-			}
-		
+		}else if($(this).next("div").is(":visible")){
+			$(".ascenceur").next("div:hidden").slideDown("fast");
+			$(this).next("div").slideUp("slow");
+        }
 	});
+    
+    
+    $("#container").click(function(){
+        console.log("clique!");
+        $(".ascenceur").next("div:visible").slideUp("slow");
+    });
 	
 
 	$(".menu-panel ul.menu-toc li").click(function(e) {
