@@ -393,18 +393,29 @@ h4.ascenseur { float:left; }
 span.afficheur { text-align:right; }
 
 .triangle-up { 
+/*
 border-style: solid;
-border-width: 0 10px 17.3px 10px;
+border-width: 0 5px 10px 5px;
 border-color: transparent transparent rgba(102, 102, 102, 1) transparent;
 
 width: 0px;
 height: 0px;
+    
+*/
+    width: 0; 
+	height: 0; 
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 5px solid #383838;
+    
+/*
 border-style: inset;
 -webkit-transform:rotate(360deg);
-
+*/
+z-index:99;
 position:absolute; 
 top:0px; 
-right:35px; 
+right:12px; 
 }
 
 .menu-toc { 

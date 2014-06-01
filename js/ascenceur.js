@@ -2,7 +2,6 @@ jQuery().ready(function () {
 	$(".ascenseur").next("div").hide();
 	$(".open").next("div").show();
     
-    var openAscenseur; 
 	
 	$(".ascenseur").click(function() {
 		$(".submenu").slideUp("slow");
@@ -15,12 +14,7 @@ jQuery().ready(function () {
 			$(this).next("div").slideUp("slow");
         }
 	});
-    
-    
-    $("#container").click(function(){
-        console.log("clique!");
-        $(".ascenceur").next("div:visible").slideUp("slow");
-    });
+
 	
 
 	$(".menu-panel ul.menu-toc li").click(function(e) {
