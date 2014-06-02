@@ -2,9 +2,6 @@
 
 Site de présentation des maquettes pour l'équipe UX/UI de Savoir-faire Linux.
 
-Travail en cours
-
-
 
 ## MAJ :
 
