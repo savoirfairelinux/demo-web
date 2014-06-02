@@ -169,7 +169,7 @@ a:hover {
 .bb-custom-wrapper{
     font-size: 14px;
     padding-top: 43px;
-    margin-top: -43px;
+/*    margin-top: -43px;*/
 }
 
 .bb-custom-wrapper nav {
@@ -355,6 +355,8 @@ h4.ascenseur { float:left; }
     height: 43px;
     width:100%;
     font-size:16px;
+    position: absolute;
+    top: 0px;
 }
 
 .submenu { 
