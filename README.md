@@ -11,7 +11,7 @@ Travail en cours
 ### 2 Juin 2014
 
 * Réduction de la taille du menu
-* Réduction de la taille des sous-menu
-* Affichage d'un scoll lorsque les sous-menu sont trop long
-* Fermeture des sous-menus lors d'un clique en dehors
+* Réduction de la taille des sous-menus
+* Affichage d'un scoll lorsque les sous-menus sont trop long
+* Fermeture des sous-menus lors d'un clique en dehors (Fonctionne avec un host seulement, en local utiliser brackets ou Apache)
 * Interdiction de la mise en cache
